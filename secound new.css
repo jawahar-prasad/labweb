@@ -1,0 +1,59 @@
+<h1 style="color:#ffffff; letter-spacing:3px; text-transform:uppercase;">
+    Handcrafted Excellence
+</h1>
+
+<p style="font-size:18px; max-width:600px; margin:auto;">
+    A family tradition of quality leather and timeless style, passed down through three generations.
+</p>
+
+<a href="#products" class="cta-btn"
+   style="background:#e67e22; box-shadow:0 10px 25px rgba(0,0,0,0.3);">
+   Explore Collection
+</a>
+<style>
+    /* INTERNAL CSS */
+    body {
+        background-color: #f4f4f4;
+    }
+
+    nav ul li a {
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+
+    .section-title {
+        color: #2c3e50;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+    }
+
+    .product-card {
+        border: 2px solid transparent;
+    }
+
+    .product-card:hover {
+        border-color: #d35400;
+    }
+</style>
+/* EXTERNAL CSS */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+.hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+footer {
+    background: #111;
+    color: #ccc;
+}
